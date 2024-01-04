@@ -1,0 +1,17 @@
+{
+    "name": "Sipster - Mix, Sip, Smile Daily!",
+    "version": "1.0.0",
+    "description": "It adds a splash of fun to your day by delivering random and unique cocktail recipes at the click of a button, ensuring every sip is an adventure in mixology.",
+    "manifest_version": 3,
+    "author": "Tanmay Khedekar",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Your Random Cocktail Delight!"
+    },
+    "icons": {
+        "16": "icon16.png",
+        "32": "icon32.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    }
+}

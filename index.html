@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Your Random Cocktail Delight!</title>
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400&display=swap" rel="stylesheet">
+  </head>
+  <body style="font-family:'Josefin Sans',sans-serif;font-weight:300;" class="bg-white">
+    <div class="container mt-3" style="width:320px;">
+    <h6 class="text-center" style="font-weight:300;">Your Random Cocktail Delight!</h6>
+    <div id="sip-container" class="mt-2">
+      <div class="sip-loader d-flex justify-content-center">
+        <div class="spinner-border m-5" style="width:3rem;height:3rem;" role="status">
+          <span class="sr-only"></span>
+        </div>
+      </div>
+      <div class="sip-details d-none">
+        <h5 class="sip-str-drink text-center my-2" style="font-weight:400;">COCKTAIL NAME</h5>
+        <img src="" class="sip-str-thumb rounded mx-auto d-block w-100 my-2" alt="" style="width:296px;height:296px;"/>
+          <p class="m-0" style="font-weight:400;">Ingredients:</p>
+          <div class="sip-str-ingredients">Not available.</div>
+          <p class="m-0 mt-2" style="font-weight:400;">Instructions:</p>
+          <div class="sip-str-instructions">Not available.</div>
+          <footer class="py-1 mt-3 border-top text-center">
+            <p style="font-weight:200;" class="font-italic m-0"><em><small>Thanks to <a href="https://www.thecocktaildb.com/" target="_blank">The Cocktail DB</a></small></em></p>
+          </footer>
+      </div>
+      <div class="sip-error p-2 d-none">
+        <p class="text-danger text-center m-0"><em><small>Whoops! It seems our cocktail genie is taking a coffee break, and the drinks are taking longer to magic up. Pour yourself a metaphorical mocktail and give it another shot in a few sips!</small></em></p>
+      </div>
+    </div>
+    </div>
+  </body>
+  <script src="jquery.min.js"></script>
+  <script src="script.js"></script>
+</html>
