@@ -12,6 +12,9 @@ $(document).ready(function () {
       // Replace image.
       const $sipStrThumb = $('img.sip-str-thumb');
       $sipStrThumb.attr('src', cocktail.strDrinkThumb);
+      $sipStrThumb.on('load', function () {
+        $(this).css('opacity', 1);
+      });
       $sipStrThumb.attr('alt', cocktail.strDrink);
       $sipStrThumb.attr('title', cocktail.strDrink);
 
